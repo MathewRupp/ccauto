@@ -49,6 +49,7 @@ footer {
 .hero-container {
   position: relative;
   width: 100%;
+  max-width: 750px;
   overflow: hidden;
 }
 
