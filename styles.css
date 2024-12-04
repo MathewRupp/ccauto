@@ -47,21 +47,15 @@ footer {
 
 /* Hero Image Styling */
 .hero-container {
-  position: relative;
+ position: relative;
   width: 100%;
-  max-width: 750px;
-  overflow: hidden;
+  height: 100vh; /* Full viewport height */
+  background-image: url('hero-image.jpg');
+  background-position: center;
+  background-size: cover;
 }
 
-.hero-image {
- position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  min-width: 100%;
-  min-height: 100%;
-  object-fit: cover;
-}
+
 
 .hero-text {
   position: absolute;
