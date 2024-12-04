@@ -47,12 +47,15 @@ footer {
 
 /* Hero Image Styling */
 .hero-container {
- position: relative;
-  width: 100%;
+  position: relative;
+  width: 100%; /* Limit width to the browser window */
+  max-width: 100vw; /* Prevent overflow beyond the viewport width */
   height: 100vh; /* Full viewport height */
   background-image: url('hero-image.jpg');
   background-position: center;
   background-size: cover;
+  overflow: hidden; /* Ensure no extra content spills out */
+  margin: 0 auto; /* Center the section if there's additional content */
 }
 
 
